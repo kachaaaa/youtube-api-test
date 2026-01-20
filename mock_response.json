@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "snippet": {
+        "topLevelComment": {
+          "snippet": {
+            "authorDisplayName": "UserOne",
+            "likeCount": 12,
+            "textDisplay": "Nice video!"
+          }
+        }
+      }
+    },
+    {
+      "snippet": {
+        "topLevelComment": {
+          "snippet": {
+            "authorDisplayName": "UserTwo",
+            "likeCount": 245,
+            "textDisplay": "This is the best tutorial I've seen."
+          }
+        }
+      }
+    },
+    {
+      "snippet": {
+        "topLevelComment": {
+          "snippet": {
+            "authorDisplayName": "UserThree",
+            "likeCount": 87,
+            "textDisplay": "Very helpful, thanks!"
+          }
+        }
+      }
+    }
+  ]
+}
