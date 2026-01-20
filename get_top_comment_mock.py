@@ -5,8 +5,8 @@ with open("mock_response.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 
-assert "items" in data, "❌ 'items' key not found in response"
-assert len(data["items"]) > 0, "❌ Comments list is empty"
+assert "items" in data, "'items' key not found in response"
+assert len(data["items"]) > 0, "Comments list is empty"
 
 
 top_comment = max(
@@ -27,4 +27,4 @@ with open("top_comment.txt", "w", encoding="utf-8") as file:
     file.write("Comment:\n")
     file.write(text)
 
-print("✅ Top comment saved (mock API)")
+print("Top comment saved (mock API)")
